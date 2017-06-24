@@ -4,3 +4,6 @@ jdk: oraclejdk8
 
 install: true
 script: mvn clean install
+
+dist: trusty
+sudo: false
