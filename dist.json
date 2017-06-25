@@ -26,9 +26,9 @@
     },
 
    "files":
-        [{"includePattern": "target/(.jar*)", "excludePattern": "target/.*.zip$,target/classes/.*.,
-        	target/maven-archive/.*.,target/sunfire-reports/.*.,
-        	target/test-classes/.*.", "uploadPattern": "/$1"}
+        [{"includePattern": "target/(J*jar)", "excludePattern": "target/.*.zip$,target/classes/.*,
+        	target/maven-archive/.*,target/sunfire-reports/.*,
+        	target/test-classes/.*", "uploadPattern": "/$1"}
         ],
         
     "publish": true
