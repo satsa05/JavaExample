@@ -14,8 +14,9 @@ deploy:
   user: satsa05
   key: $BINTRAY_API_KEY
   
-  file: "target/JavaExample.jar"
-  skip_cleanup: false
+  file: target/JavaExample.jar
+  skip_cleanup: true
   on:
-    all_branches: false
+    branch: master
     tags: false
+    repo: satsa05/repository
