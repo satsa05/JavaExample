@@ -10,13 +10,13 @@ sudo: false
 
 deploy:
   provider: bintray
-  api_key: mRnRFK2Aq9ip4B2e7jXu
+  api_key: b25b8558a214d7f5d334061c5037fd22c118a8f1
   user: satsa05
-  key: $BINTRAY_API_KEY
+ 
   
-  file: target/JavaExample.jar
+  file: dist.json
   skip_cleanup: true
   on:
     branch: master
     tags: false
-    
+
