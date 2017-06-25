@@ -27,7 +27,7 @@
 
    "files":
         [
-        {"includePattern": "target/JavaExample.jar","uploadPattern": "target/$1"}
+        {"includePattern": "target/(.*)","uploadPattern": "target/$1"}
         ],
         
     "publish": true
