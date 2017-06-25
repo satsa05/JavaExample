@@ -1,9 +1,9 @@
 {
     "package": {
-        "name": "auto-upload",
+        "name": "JavaExample",
         "repo": "Repository",
         "subject": "satsa05",
-        "desc": "I was pushed completely automatically",
+        "desc": "JavaExample pushed automatically",
         "website_url": "www.jfrog.com",
         "issue_tracker_url": "https://github.com/bintray/bintray-client-java/issues",
         "vcs_url": "https://github.com/satsa05/JavaExample",
@@ -25,8 +25,12 @@
         "gpgSign": false
     },
 
-    "files": ""
-        ,
+   "files":
+        [
+        {"includePattern": "build/bin(.*)*/(.*\\.gem)","target/(.*)*/(.*\\.gem)" "excludePattern": ".*/do-not-deploy/.*", "uploadPattern": "gems/$2"},
+        {"includePattern": "build/docs/(.*)", "uploadPattern": "docs/$1"}
+        ],
+        
     "publish": true
 }
 
