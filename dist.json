@@ -27,8 +27,7 @@
 
    "files":
         [
-        {"includePattern": "build/bin(.*)*/(.*\\.gem)","target/(.*)*/(.*\\.gem)" "excludePattern": ".*/do-not-deploy/.*", "uploadPattern": "gems/$2"},
-        {"includePattern": "build/docs/(.*)", "uploadPattern": "docs/$1"}
+        {"includePattern": "*.jar"}
         ],
         
     "publish": true
