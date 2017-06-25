@@ -15,4 +15,4 @@ deploy:
   skip_cleanup: false
   on:
     all_branches: false
-    tags: true
+    tags: false
