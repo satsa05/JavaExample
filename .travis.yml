@@ -9,8 +9,11 @@ dist: trusty
 sudo: false
 
 deploy:
-  provider: releases
+  provider: bintray
   api_key: mRnRFK2Aq9ip4B2e7jXu
+  user: satsa05
+  key: $BINTRAY_API_KEY
+  
   file: "build/libs/JavaExample.jar"
   skip_cleanup: false
   on:
