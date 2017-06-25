@@ -26,8 +26,7 @@
     },
 
    "files":
-        [
-        {"includePattern": "target/(.*\.jar)","uploadPattern": "target/$1"}
+        [{"includePattern": "target/(.*)", "excludePattern": "target/.*.zip$", "uploadPattern": "/$1"}
         ],
         
     "publish": true
