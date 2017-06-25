@@ -10,7 +10,7 @@ sudo: false
 
 deploy:
   provider: bintray
-  api_key: b25b8558a214d7f5d334061c5037fd22c118a8f1
+  key: b25b8558a214d7f5d334061c5037fd22c118a8f1
   user: satsa05
  
   
