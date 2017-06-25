@@ -10,7 +10,7 @@ sudo: false
 
 deploy:
   provider: releases
-  api_key: ${api_key}
+  api_key: mRnRFK2Aq9ip4B2e7jXu
   file: "build/libs/JavaExample.jar"
   skip_cleanup: false
   on:
