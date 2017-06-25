@@ -7,3 +7,12 @@ script: mvn clean install
 
 dist: trusty
 sudo: false
+
+deploy:
+  provider: releases
+  api_key: ${api_key}
+  file: "build/libs/JavaExample.jar"
+  skip_cleanup: true
+  on:
+    all_branches: true
+    tags: true
