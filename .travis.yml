@@ -19,4 +19,4 @@ deploy:
   on:
     branch: master
     tags: false
-    repo: satsa05/Repository
+    
